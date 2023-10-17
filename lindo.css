@@ -1,0 +1,51 @@
+
+#movableImage {
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.catedral{
+    height: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    border: solid 6px rgb(74, 74, 165);
+
+}
+.pina{
+    height: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    right: 200px;
+    border: solid 6px rgb(74, 74, 165);
+}
+.copan{
+    height: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    right: 400px;
+    border: solid 6px rgb(74, 74, 165);
+}
+.cam{
+    height: 60px;
+}
+.barra{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(74, 74, 165);
+    color: white;
+}
+li{
+    margin-left: 60px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+}
