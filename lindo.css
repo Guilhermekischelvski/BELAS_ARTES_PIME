@@ -1,12 +1,15 @@
 
-#movableImage {
+body {
+    margin: 0;
+    padding: 0;
+}
+/*#movableImage {
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 320px;
+    top: 5px;
 }
-
 .catedral{
     height: 150px;
     border-radius: 10px;
@@ -31,9 +34,11 @@
     top: 90px;
     right: 400px;
     border: solid 6px rgb(74, 74, 165);
-}
+}*/
+
 .cam{
     height: 60px;
+    margin-left: 10px;
 }
 .barra{
     list-style: none;
@@ -42,10 +47,65 @@
     align-items: center;
     background-color: rgb(74, 74, 165);
     color: white;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
 li{
     margin-left: 60px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
-    list-style: none;
+}
+.barra a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.teste{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    background-color:rgb(74, 74, 165);
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+    color: rgb(70, 70, 70);
+    text-align: right;
+}
+.teste img{
+   height: 400px;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+main{
+    margin: 0px 100px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+}
+figure img{
+height: 200px;
+}
+figcaption{
+    margin: 10px 0px ;
+}
+.logofooter{
+    height: 60px;
+    margin-left: 10px;
+}
+footer{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
 }
