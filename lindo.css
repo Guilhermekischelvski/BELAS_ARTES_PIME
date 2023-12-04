@@ -3,39 +3,6 @@ body {
     margin: 0;
     padding: 0;
 }
-/*#movableImage {
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    left: 320px;
-    top: 5px;
-}
-.catedral{
-    height: 150px;
-    border-radius: 10px;
-    position: absolute;
-    top: 90px;
-    right: 20px;
-    border: solid 6px rgb(74, 74, 165);
-
-}
-.pina{
-    height: 150px;
-    border-radius: 10px;
-    position: absolute;
-    top: 90px;
-    right: 200px;
-    border: solid 6px rgb(74, 74, 165);
-}
-.copan{
-    height: 150px;
-    border-radius: 10px;
-    position: absolute;
-    top: 90px;
-    right: 400px;
-    border: solid 6px rgb(74, 74, 165);
-}*/
-
 .cam{
     height: 60px;
     margin-left: 10px;
@@ -50,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     justify-content: center;
+    text-decoration: none;
 }
 li{
     margin-left: 60px;
@@ -59,6 +27,7 @@ li{
 .barra a{
     list-style-type: none;
     text-decoration: none;
+    color: white;
 }
 .teste{
     display: flex;
@@ -66,7 +35,11 @@ li{
     justify-content: space-around;
     background-color:rgb(74, 74, 165);
     align-items: center;
+    background-image: url('/fotos/correndo.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
 }
+
 h1{
     font-size: 100px;
     color: rgb(70, 70, 70);
@@ -108,4 +81,30 @@ footer{
     background-color: black;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.fotoprincipal{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.imgfooter{
+    display: flex;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+}
+@media screen and (max-width: 428px){
+    .teste{
+        height: 200px;
+    }
+    main{
+        margin: 0px 24px;
+    }
+    figure img{
+        height: 100px;
+        }
 }
