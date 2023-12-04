@@ -35,7 +35,7 @@ li{
     justify-content: space-around;
     background-color:rgb(74, 74, 165);
     align-items: center;
-    background-image: url('/fotos/correndo.jpg');
+    background-image: url('correndo.jpg');
     background-size:cover ;
     background-repeat: no-repeat;
 }
