@@ -105,6 +105,9 @@ button{
         margin: 0px 24px;
     }
     figure img{
-        height: 100px;
+        height: 350px;
         }
+    .fotoprincipal{
+        height: 200px;
+    }
 }
